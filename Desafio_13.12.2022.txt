@@ -1,0 +1,30 @@
+EXERCÍCIO DO DIA 🧠
+
+08 - Conte o número de inteiros diferentes em após a reversão de inteiros
+
+Bom dia, @here.
+
+No desafio de hoje, você receberá um array nums contendo apenas números inteiros positivos.
+
+Você devera pegar cada inteiro do array, reverter seus dígitos, e adicioná-los ao final do array.
+
+Você deve retornar apenas a quantidade de números inteiros diferentes do array.
+
+👨‍💻👩‍💻
+
+Exemplo 1
+let nums = [1,13,10,12,31]
+Output: 6
+Justificativa: Depois de reverter todos os números, o array resultante é [1,13,10,12,31,1,31,1,21,13].
+Os inteiros invertidos que foram adicionados ao final do array são [..., 1,31,1,21,13]. Perceba que para o inteiro 10, depois de invertê-lo, ele se torna 01, que é apenas 1.
+O número de inteiros distintos neste array é 6 (Os números 1, 10, 12, 13, 21 e 31).
+
+
+Exemplo 2
+let nums = [2,2,2]
+Output: 1
+Justificativa: Depois de incluir o inverso de cada número, o array resultante é [2,2,2,2,2,2].
+O número de inteiros distintos neste array é 1 (O número 2).
+
+
+Qualquer linguagem pode ser utilizada para solucionar este challenge.
