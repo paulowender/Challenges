@@ -1,0 +1,28 @@
+Neste desafio, você tem um conjunto de números inteiros (array), calcule o índice pivot deste array.
+
+O índice pivot é o índice onde a soma dos números à esquerda do array é igual à soma dos números à direita do índice.
+
+Retorne o índice do pivot à esquerda. Se ele não existir, retorne -1.
+
+Exemplo 1
+Input: nums = [1,7,3,6,5,6]
+
+Output: 3
+
+Explicação:
+Soma dos números à esquerda do array: 1 + 7 + 3 = 11
+Soma dos números à esquerda do array: nums[0] + nums[1] + nums[2] = 11
+
+Soma dos números à direita do array: 6 + 5 = 11
+Soma dos números à direita do array: nums[5] + nums[4]  = 11
+
+O índice pivot, (aquele que não fez parte do cálculo para chegar ao resultado esperado), foi o índice 3
+
+
+Exemplo 2
+Input: nums = [1,2,3]
+
+Output: -1
+
+Explicação: 
+Não existe um índice, neste array, que satisfaça o problema proposto
